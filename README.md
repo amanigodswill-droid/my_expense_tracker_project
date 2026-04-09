@@ -56,8 +56,7 @@ expense-tracker/
    npm test
 
 ## Live Demo
-Add your GitHub Pages link here.
-
+https://amanigodswill-droid.github.io/my_expense_tracker_project/
 ## Author
 God'swill Amani
 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <h2>Expense Tracker</h2>
+
+<div class="form-container">
+  <input id="desc" placeholder="Description">
+  <input id="amount" type="number" placeholder="Amount">
+
+  <select id="category">
+    <option>Food</option>
+    <option>Transport</option>
+    <option>Shopping</option>
+  </select>
+
+  <button onclick="addExpense()">Add</button>
+</div>
+  
+
+  <h3>Filter</h3>
+  <select id="filter" onchange="filterExpenses()">
+    <option>All</option>
+    <option>Food</option>
+    <option>Transport</option>
+    <option>Shopping</option>
+  </select>
+
+  <ul id="list"></ul>
+
+  <h3>Total: KES <span id="total">0</span></h3>
+
+  <script src="node.js"></script>
+  <script src="expenseTracker.js"></script>
+  <script src="expenseTracker.test.js"></script>
+</body>
+</html>
